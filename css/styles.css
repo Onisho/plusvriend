@@ -36,7 +36,7 @@ hr {border-top:1px solid #C2E6F6;}
 .btn-secondary:hover {background-color:#C2E6F6;border-color:#C2E6F6;color:#479ABF;}
 
 /* HEADER */
-header {background:#469abf;color:#FFFFFF;}
+header {background:#469abf url('../img/header-xs.jpg');background-size:cover;background-repeat:no-repeat;background-position: 50% 0;color:#FFFFFF;}
 
 /* TOP */
 .top {background-color:#D91800;color:#FFFFFF;}
@@ -49,10 +49,10 @@ header {background:#469abf;color:#FFFFFF;}
 /* RESPONSIVE */
 
 @media (min-width: 34em) {
-  header {background:url('../img/header.jpg');background-size:cover;background-repeat:no-repeat;background-position: 50% 0 ;}
+  
 }
 @media (min-width: 48em) {
-
+  header {background:url('../img/header.jpg');background-size:cover;background-repeat:no-repeat;background-position: 50% 0;color:#FFFFFF;}
 }
 @media (min-width: 62em) {
 
